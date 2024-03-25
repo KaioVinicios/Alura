@@ -2,7 +2,9 @@
 string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
 //List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso"};  
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>(); 
-void ExibirLogo()
+bandasRegistradas.Add("U2", new List<int> {10, 5, 10});
+
+void ExibirLogo() 
 {
     Console.WriteLine(@"
 
@@ -37,7 +39,7 @@ void ExibirOpcoesDoMenu()
             break;
         case 3: AvaliarUmaBanda();
             break;
-        case 4: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+        case 4: ExibirMediaBanda();
             break;
         case -1: Console.WriteLine("Tchau tchau :)");
             break;
@@ -112,6 +114,26 @@ void AvaliarUmaBanda()
         Console.Clear();
         ExibirOpcoesDoMenu();
     }
+}
+
+void ExibirMediaBanda()
+{
+    ExibirTituloDaOpcao("Média de avaliação");
+    Console.Write("Qual banda você deseja visualizar a média ? ");
+    string nomeDaBanda = Console.ReadLine()!;
+    if (bandasRegistradas.ContainsKey(nomeDaBanda))
+    {
+        double mediaAvaliacao = bandasRegistradas[nomeDaBanda].Average(); // bandasRegistradas[nomeDaBanda].Sum() / bandasRegistradas[nomeDaBanda].Count;
+        Console.WriteLine($"A banda {nomeDaBanda} tem avaliação média de: {mediaAvaliacao.ToString("N2")}");
+        Thread.Sleep(3000);
+    }
+    else
+    {
+        Console.WriteLine($"A banda {nomeDaBanda} não consta em bandas registradas, tente novamente.");
+        Thread.Sleep(3000);
+    }
+    Console.Clear();
+    ExibirOpcoesDoMenu();
 }
 
 ExibirOpcoesDoMenu();
