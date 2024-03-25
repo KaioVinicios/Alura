@@ -1,38 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guilherme\\.nuget\\packages\\": {}
+    "/Users/kaiovinicios/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
-      "projectName": "PrimeiroProjeto",
-      "projectPath": "C:\\Users\\guilherme\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
-      "packagesPath": "C:\\Users\\guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\obj\\",
+      "projectUniqueName": "/Users/kaiovinicios/GitHub/Alura/Screen Sound/Screen Sound.csproj",
+      "projectName": "Screen Sound",
+      "projectPath": "/Users/kaiovinicios/GitHub/Alura/Screen Sound/Screen Sound.csproj",
+      "packagesPath": "/Users/kaiovinicios/.nuget/packages/",
+      "outputPath": "/Users/kaiovinicios/GitHub/Alura/Screen Sound/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/kaiovinicios/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.1/libexec/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
