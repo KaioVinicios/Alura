@@ -1,0 +1,14 @@
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/Users/kaiovinicios/RiderProjects/ConsoleApp1/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
