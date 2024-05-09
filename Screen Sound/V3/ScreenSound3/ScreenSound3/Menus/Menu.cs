@@ -1,6 +1,7 @@
+using ScreenSound3.Modelos;
 namespace ScreenSound3.Menus;
 
-public class Menu 
+internal class Menu 
 {
     public void ExibirTituloDaOpcao(string titulo)
     {
@@ -9,5 +10,10 @@ public class Menu
         Console.WriteLine(asteriscos);
         Console.WriteLine(titulo);
         Console.WriteLine(asteriscos + "\n");
+    }
+    
+    public virtual void Executar(Dictionary<string, Banda> bandasRegistradas)
+    {
+        Console.Clear();
     }
 }
