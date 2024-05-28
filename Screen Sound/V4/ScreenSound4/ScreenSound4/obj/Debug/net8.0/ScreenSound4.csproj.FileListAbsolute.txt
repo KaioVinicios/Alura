@@ -1,0 +1,15 @@
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/bin/Debug/net8.0/ScreenSound4
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/bin/Debug/net8.0/ScreenSound4.deps.json
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/bin/Debug/net8.0/ScreenSound4.runtimeconfig.json
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/bin/Debug/net8.0/ScreenSound4.dll
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/bin/Debug/net8.0/ScreenSound4.pdb
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.AssemblyInfoInputs.cache
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.AssemblyInfo.cs
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.csproj.CoreCompileInputs.cache
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.sourcelink.json
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.dll
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/refint/ScreenSound4.dll
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.pdb
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ScreenSound4.genruntimeconfig.cache
+/Users/kaiovinicios/GitHub/Alura/Screen Sound/V4/ScreenSound4/ScreenSound4/obj/Debug/net8.0/ref/ScreenSound4.dll
