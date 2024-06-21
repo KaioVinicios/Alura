@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 OPCOES_CATEGORIA = [
     ('NEBULOSA', 'Nebulosa'),
@@ -13,6 +14,8 @@ class Fotografia(models.Model):
     descricao = models.TextField(null=False, blank=False)
     categoria = models.CharField(max_length=100, choices=OPCOES_CATEGORIA, default='')
     foto = models.ImageField(upload_to='fotos/%Y/%m/%d/', blank=True)
+    data_fotografia = models.DateTimeField(default=datetime.now, blank= False)
+    publicada = models.BooleanField(default= False)
 
     def __str__(self):
-        return f'Fotografia [nome = {self.nome}]'
+        return self.nome
