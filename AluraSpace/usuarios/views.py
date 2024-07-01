@@ -57,5 +57,13 @@ def cadastro(request):
             usuario.save()
             messages.success(request, 'Usuário cadastrado com sucesso.')
             return redirect('login')
+        else:
+            messages.error(request, 'Email inválido, é necessário seguir a estrutura do exemplo.')
+            return redirect('cadastro')
 
     return render(request, 'usuarios/cadastro.html', {'form': form})
+
+def logout(request):
+    auth.logout(request)
+    messages.success(request, 'Logout efetuado com sucesso.')
+    return redirect('login') 
