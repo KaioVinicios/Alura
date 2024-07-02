@@ -384,12 +384,9 @@ table {
 }
 
 .alert {
-    --bs-alert-bg: transparent;
     --bs-alert-padding-x: 1rem;
     --bs-alert-padding-y: 1rem;
     --bs-alert-margin-bottom: 1rem;
-    --bs-alert-color: inherit;
-    --bs-alert-border-color: transparent;
     --bs-alert-border: 1px solid var(--bs-alert-border-color);
     --bs-alert-border-radius: 0.375rem;
     position: relative;
@@ -401,7 +398,7 @@ table {
     border-radius: var(--bs-alert-border-radius);
 }
 
-.alert-primary {
+.alert-success {
     --bs-alert-color: #084298;
     --bs-alert-bg: #cfe2ff;
     --bs-alert-border-color: #b6d4fe;

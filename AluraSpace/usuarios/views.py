@@ -37,9 +37,6 @@ def cadastro(request):
         form = CadastroForms(request.POST)
 
         if form.is_valid():
-            if form['senha1'].value() != form['senha2'].value():
-                messages.error(request, 'A confirmação da senha não corresponde à senha.')
-                return redirect('cadastro')
             
             nome = form['nome_cadastro'].value()
             email = form['email'].value()
@@ -57,7 +54,7 @@ def cadastro(request):
             usuario.save()
             messages.success(request, 'Usuário cadastrado com sucesso.')
             return redirect('login')
-        else:
+        elif 'email' in form.errors:
             messages.error(request, 'Email inválido, é necessário seguir a estrutura do exemplo.')
             return redirect('cadastro')
 
